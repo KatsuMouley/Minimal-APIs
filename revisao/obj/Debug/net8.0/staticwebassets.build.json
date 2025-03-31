@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "PXeWyZV5P7litKyWRhhhzm1ws2zqyW4eHkw5M8luqbI=",
+  "Hash": "JrTitnxp6YXRTW4QQWgNS5iyf3DdKdgFgJEk442cCE4=",
   "Source": "revisao",
   "BasePath": "_content/revisao",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

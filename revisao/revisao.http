@@ -1,5 +1,5 @@
 @revisao_HostAddress = http://localhost:5102
-@nome = "KatsuMouley"
+@id = 1
 GET {{revisao_HostAddress}}/
 Accept: application/json
 
@@ -10,13 +10,29 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "name":"KatsuMouley",
-    "Age":40
+    "name":"loki",
+    "Age":1420
 }
 
 ###
-GET {{revisao_HostAddress}}/get_user/{{nome}}
+GET {{revisao_HostAddress}}/get_user/{{id}}
 
 ###
 
 GET {{revisao_HostAddress}}/get_users
+
+###
+
+PUT {{revisao_HostAddress}}/update_user/{{id}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name":"Lorem Ipsum",
+    "Age":10
+}
+
+
+###
+
+DELETE {{revisao_HostAddress}}/delete_user/{{id}}
